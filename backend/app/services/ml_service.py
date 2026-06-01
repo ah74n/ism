@@ -25,7 +25,6 @@ LABELS = {
     3: "malware"
 }
 
-
 def predict_url(url):
     try:
         # EXTRACT FEATURES
