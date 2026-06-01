@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+psycopg2-binary
+redis
+pydantic
+joblib
+scikit-learn
+dnspython
+python-whois
+tldextract
+httpx
