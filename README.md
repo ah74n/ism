@@ -6,10 +6,11 @@ https://ism-94c3w6l1q-ahsans-projects-34f9a56b.vercel.app/
 ```
 ## Overview
 
-IsMalicious: A Threat Analysis module is designed to inspect and evaluate URLs for potentially malicious or suspicious behavior. The system performs multi-layer analysis by extracting domain intelligence, inspecting DNS and WHOIS records, analyzing URL structure patterns, checking redirection behavior, and identifying indicators commonly associated with phishing, scam, malware, or deceptive websites. The platform combines automated inspection workflows with data enrichment and processing techniques to generate structured threat insights while maintaining a lightweight and modular architecture.
+**IsMalicious: A Threat Analysis module is designed to inspect and evaluate URLs for potentially malicious or suspicious behavior. The system performs multi-layer analysis by extracting domain intelligence, inspecting DNS and WHOIS records, analyzing URL structure patterns, checking redirection behavior, and identifying indicators commonly associated with phishing, scam, malware, or deceptive websites. The platform combines automated inspection workflows with data enrichment and processing techniques to generate structured threat insights while maintaining a lightweight and modular architecture.**
 ---
 
 ## Architecture overview
+```
 Client Request
        │
        ▼
@@ -35,7 +36,7 @@ Storage / Cache
        │
        ▼
 Formatted Response
-
+```
 # Features
 
 * Modular backend architecture
@@ -81,7 +82,7 @@ Formatted Response
 ---
 
 # Project Structure
-
+```
 ISM/
 │
 ├── app/
@@ -99,7 +100,7 @@ ISM/
 ├── .env                       # Environment variables
 ├── README.md                  # Project documentation
 └── .gitignore                 # Git ignore rules
-
+```
 ---
 
 # Installation
