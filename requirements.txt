@@ -11,3 +11,9 @@ dnspython
 python-whois
 tldextract
 httpx
+gunicorn
+Flask
+flask-cors
+gunicorn
+playwright
+dnspython
