@@ -23,7 +23,7 @@ function App() {
     try {
       // FIXED: Pointing directly to your live Render backend
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL || "https://ism-backend-o3ha.onrender.com"}/scan`,
+        `${import.meta.env.VITE_API_URL || "https://ism-backend-o3ha.onrender.com"}/api/scan`,
         { url: url }
       );
 
